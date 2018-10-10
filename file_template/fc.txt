@@ -1,0 +1,17 @@
+import React from 'react';
+import {style} from './index.scss';
+
+const ClassName = ({}) => {
+
+    return (
+        <div className={style}>
+            
+        </div>
+    );
+};
+
+ClassName.propTypes = {
+
+};
+
+export default ClassName;
