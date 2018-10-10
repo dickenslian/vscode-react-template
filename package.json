@@ -4,6 +4,10 @@
     "description": "generate code template for react project",
     "version": "0.0.1",
     "publisher": "dabai",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/dickenslian/vscode-react-template.git"
+    },
     "engines": {
         "vscode": "^1.28.0"
     },
