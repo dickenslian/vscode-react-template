@@ -2,7 +2,7 @@
     "name": "react-template",
     "displayName": "React Template",
     "description": "generate code template for react project",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "dabai",
     "repository": {
         "type" : "git",

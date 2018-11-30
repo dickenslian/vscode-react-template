@@ -90,8 +90,8 @@ function activate(context) {
         const folderPath = param.fsPath;
 
         const options = {
-            prompt: "请输入组件名: ",
-            placeHolder: "组件名"
+            prompt: "Please input the component name: ",
+            placeHolder: "Component Name"
         }
         
         vscode.window.showInputBox(options).then(value => {
@@ -112,8 +112,8 @@ function activate(context) {
         const folderPath = param.fsPath;
 
         const options = {
-            prompt: "请输入组件名: ",
-            placeHolder: "组件名"
+            prompt: "Please input the component name: ",
+            placeHolder: "Component Name"
         }
         
         vscode.window.showInputBox(options).then(value => {
