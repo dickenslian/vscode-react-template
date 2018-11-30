@@ -2,7 +2,7 @@
     "name": "react-template",
     "displayName": "React Template",
     "description": "generate code template for react project",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "publisher": "dabai",
     "repository": {
         "type" : "git",
@@ -10,7 +10,7 @@
     },
     "icon": "images/icon.png",
     "engines": {
-        "vscode": "^1.28.0"
+        "vscode": "^1.0.0"
     },
     "categories": [
         "Other"
