@@ -2,7 +2,7 @@
     "name": "react-template",
     "displayName": "React Template",
     "description": "generate code template for react project",
-    "version": "0.0.5",
+    "version": "0.1.0",
     "publisher": "dabai",
     "repository": {
         "type" : "git",
@@ -28,6 +28,9 @@
             }, {
                 "command": "extension.createPureComponent",
                 "title": "Create Pure Component"
+            }, {
+                "command": "extension.createTsPureComponent",
+                "title": "Create TS Pure Component"
             }
         ],
         "menus": {
@@ -37,6 +40,9 @@
                     "group": "1_modification"
                 }, {
                     "command": "extension.createPureComponent",
+                    "group": "1_modification"
+                }, {
+                    "command": "extension.createTsPureComponent",
                     "group": "1_modification"
                 }
             ]
