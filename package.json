@@ -17,7 +17,8 @@
     ],
     "activationEvents": [
         "onCommand:extension.createFunctionalComponent",
-        "onCommand:extension.createPureComponent"
+        "onCommand:extension.createPureComponent",
+        "onCommand:extension.createTsPureComponent"
     ],
     "main": "./extension",
     "contributes": {

@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import style from './index.scss';
+import scss from './index.scss';
 
 export interface IClassNamedProps {
 
@@ -23,15 +23,11 @@ class ClassName extends PureComponent<IClassNamedProps, IClassNamedState> {
 
     render() {
         return (
-            <div className={style.scss}>
+            <div className={scss.style}>
                 
             </div>
         );
     }
 }
-
-ClassName.propTypes = {
-
-};
 
 export default ClassName;
